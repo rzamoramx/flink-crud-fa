@@ -17,7 +17,7 @@ def main():
     def index():
         return "ok"
 
-    #uvicorn.run(api, host="127.0.0.1", port=8080)
+    uvicorn.run(api, host="127.0.0.1", port=8080)
 
 
 # Here you choose what implementations you will need
@@ -25,5 +25,5 @@ def wire_up():
     api.__setattr__("rates_app", RatesCore(FirestoreEngine(), PubsubEngine()))
 
 
-#if __name__ == "__main__":
-#    main()
+if __name__ == "__main__":
+    main()
