@@ -17,7 +17,7 @@ def main():
     def index():
         return "ok"
 
-    uvicorn.run(api, host="127.0.0.1", port=8080)
+    uvicorn.run(api, host="127.0.0.1", port=8000)
 
 
 # Here you choose what implementations you will need
