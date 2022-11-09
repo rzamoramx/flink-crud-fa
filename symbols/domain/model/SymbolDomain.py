@@ -1,6 +1,6 @@
 
 
-class Rates:
+class SymbolDomain:
     def __init__(self):
         pass
 

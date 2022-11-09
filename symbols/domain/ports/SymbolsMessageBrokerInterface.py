@@ -2,7 +2,7 @@
 from abc import ABC, abstractmethod
 
 
-class RatesMessageBrokerInterface(ABC):
+class SymbolsMessageBrokerInterface(ABC):
     @abstractmethod
     def publish(self, message: dict) -> Exception:
         pass

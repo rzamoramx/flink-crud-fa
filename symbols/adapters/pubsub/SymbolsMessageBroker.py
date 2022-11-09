@@ -1,10 +1,10 @@
 
-from rates.domain.ports.RatesMessageBrokerInterface import RatesMessageBrokerInterface
-from rates.config.conf import PROJECT_ID
+from symbols.domain.ports.SymbolsMessageBrokerInterface import SymbolsMessageBrokerInterface
+from symbols.config.conf import PROJECT_ID
 
 
 # GCP pubsub logic
-class RatesMessageBroker(RatesMessageBrokerInterface):
+class SymbolsPubsub(SymbolsMessageBrokerInterface):
     def __init__(self):
         pass
 
