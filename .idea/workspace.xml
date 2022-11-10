@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a7f4008-459e-4130-b634-ae35d862a6ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/symbols/domain/model/Symbol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symbols/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/symbols/tests/test_SymbolDB.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/symbols/tests/test_SymbolsApp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.deta/state" beforeDir="false" afterPath="$PROJECT_DIR$/.deta/state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-crud-fa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-crud-fa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symbols/adapters/api/rest/v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/symbols/adapters/api/rest/v1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symbols/adapters/detadb/SymbolDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/symbols/adapters/detadb/SymbolDB.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symbols/adapters/firestore/SymbolDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/symbols/adapters/firestore/SymbolDB.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symbols/adapters/pubsub/SymbolsMessageBroker.py" beforeDir="false" afterPath="$PROJECT_DIR$/symbols/adapters/pubsub/SymbolsMessageBroker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symbols/config/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/symbols/config/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.yaml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/symbols/domain/SymbolsApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/symbols/domain/SymbolsApp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symbols/domain/model/SymbolDomain.py" beforeDir="false" afterPath="$PROJECT_DIR$/symbols/domain/model/SymbolDomain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symbols/domain/ports/SymbolDBInterface.py" beforeDir="false" afterPath="$PROJECT_DIR$/symbols/domain/ports/SymbolDBInterface.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +44,24 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.google.cloudcode.ide_session_index": "20221109_0009",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_SymbolsApp.TestSymbolsApp">
+  <component name="RunManager" selected="Python tests.Python tests for test_SymbolDB.TestSymbolDB.test_fetch_get">
+    <configuration name="Python tests for test_SymbolDB.TestSymbolDB.test_fetch_get" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="flink-crud-fa" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/symbols/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_SymbolDB.TestSymbolDB.test_fetch_get&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_SymbolsApp.TestSymbolsApp" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="flink-crud-fa" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_SymbolDB.TestSymbolDB.test_fetch_get" />
         <item itemvalue="Python tests.Python tests for test_SymbolsApp.TestSymbolsApp" />
         <item itemvalue="Python tests.Python tests for test_SymbolsApp.TestSymbolsApp.test_retrieve_none_when_not_exists" />
         <item itemvalue="Python tests.Python tests for test_SymbolsApp.TestSymbolsApp.test_retrieve" />

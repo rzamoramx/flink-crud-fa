@@ -22,7 +22,7 @@ class SymbolsApp:
             raise Exception("symbol not found")
 
     def create(self, symbol: dict) -> str:
-        # Generate uuid v4
+        # Generate uuid v4 as key for DB
         uid = str(uuid.uuid4())
 
         # We use a domain model logic
@@ -38,7 +38,7 @@ class SymbolsApp:
     def retrieve(self, symbol_id: str) -> dict:
         result = self.symbol_db.get_by_symbol(symbol_id)
         if result is not None:
-            # Replace key name
+            # Replace key name, we are using key from DB as uid field
             uid = result["key"]
             del result["key"]
             result.update({"uid": uid})
@@ -50,7 +50,7 @@ class SymbolsApp:
         items = self.symbol_db.fetch(1000)
         if items is not None:
             for idx in range(len(items)):
-                # Replace key name
+                # Replace key name by uid, we are using key from DB as uid field
                 uid = items[idx]["key"]
                 del items[idx]['key']
                 items[idx].update({"uid": uid})
