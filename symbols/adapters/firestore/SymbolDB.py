@@ -1,6 +1,6 @@
 
 from symbols.domain.ports.SymbolDBInterface import SymbolDBInterface
-from symbols.config.conf import PROJECT_ID
+from symbols.config.conf import SOME_ENV_VAR
 
 
 # Firestore logic
@@ -9,7 +9,7 @@ class SymbolFirestore(SymbolDBInterface):
         pass
 
     def fetch(self, limit: int) -> [dict]:
-        print(f'Project id: {PROJECT_ID}')
+        print(f'some env var: {SOME_ENV_VAR}')
         return []
 
     def get(self, uid: str) -> dict:
@@ -22,4 +22,7 @@ class SymbolFirestore(SymbolDBInterface):
         pass
 
     def get_by_symbol(self, symbol: str) -> dict:
+        pass
+
+    def delete_symbol(self, symbol: str) -> bool:
         pass

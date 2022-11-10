@@ -1,4 +1,4 @@
 
 import os
 
-PROJECT_ID = os.getenv("GOOGLE_PROJECT_ID")
+SOME_ENV_VAR = os.getenv("SOME_ENV_VAR")

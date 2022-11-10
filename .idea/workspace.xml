@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a7f4008-459e-4130-b634-ae35d862a6ea" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/symbols/domain/model/Symbol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symbols/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symbols/tests/test_SymbolDB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symbols/tests/test_SymbolsApp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.deta/state" beforeDir="false" afterPath="$PROJECT_DIR$/.deta/state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-crud-fa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-crud-fa.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symbols/adapters/api/rest/v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/symbols/adapters/api/rest/v1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symbols/adapters/detadb/SymbolDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/symbols/adapters/detadb/SymbolDB.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symbols/adapters/firestore/SymbolDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/symbols/adapters/firestore/SymbolDB.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symbols/adapters/pubsub/SymbolsMessageBroker.py" beforeDir="false" afterPath="$PROJECT_DIR$/symbols/adapters/pubsub/SymbolsMessageBroker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symbols/config/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/symbols/config/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symbols/domain/SymbolsApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/symbols/domain/SymbolsApp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symbols/domain/model/SymbolDomain.py" beforeDir="false" afterPath="$PROJECT_DIR$/symbols/domain/model/SymbolDomain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symbols/domain/ports/SymbolDBInterface.py" beforeDir="false" afterPath="$PROJECT_DIR$/symbols/domain/ports/SymbolDBInterface.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HJrghcnTOmmDTw16TgpVFRZ53b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ACTIVE_CLOUD_PROJECT_ACCOUNT": "rodrigo.zamora@cargamos.com",
+    "ACTIVE_CLOUD_PROJECT_ID": "cargamos-dev-1",
+    "ACTIVE_CLOUD_PROJECT_NAME": "Cargamos DEV",
+    "ACTIVE_CLOUD_PROJECT_NUMBER": "72526559725",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.google.cloudcode.ide_session_index": "20221109_0009",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for test_SymbolsApp.TestSymbolsApp">
+    <configuration name="Python tests for test_SymbolsApp.TestSymbolsApp" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="flink-crud-fa" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/symbols/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_SymbolsApp.TestSymbolsApp&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_SymbolsApp.TestSymbolsApp.test_retrieve" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="flink-crud-fa" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/symbols/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_SymbolsApp.TestSymbolsApp.test_retrieve&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_SymbolsApp.TestSymbolsApp.test_retrieve_none_when_not_exists" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="flink-crud-fa" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/symbols/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_SymbolsApp.TestSymbolsApp.test_retrieve_none_when_not_exists&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_SymbolsApp.TestSymbolsApp" />
+        <item itemvalue="Python tests.Python tests for test_SymbolsApp.TestSymbolsApp.test_retrieve_none_when_not_exists" />
+        <item itemvalue="Python tests.Python tests for test_SymbolsApp.TestSymbolsApp.test_retrieve" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a7f4008-459e-4130-b634-ae35d862a6ea" name="Changes" comment="" />
+      <created>1668014142090</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668014142090</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

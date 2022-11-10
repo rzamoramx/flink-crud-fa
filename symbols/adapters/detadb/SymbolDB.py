@@ -29,7 +29,16 @@ class SymbolDetaDB(SymbolDBInterface):
         self.db.update(symbol, uid)
 
     def get_by_symbol(self, symbol: str) -> dict:
+        # Return symbol as dict, if find it, otherwise return None
         result = self.db.fetch([{"symbol": symbol}], limit=1)
         if result.count > 0:
             return result.items[0]
         return None
+
+    def delete_symbol(self, symbol: str) -> bool:
+        symb = self.get_by_symbol(symbol)
+        if symb is None:
+            return False
+        else:
+            self.db.delete(symb['key'])
+            return True

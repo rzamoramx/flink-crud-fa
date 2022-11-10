@@ -22,3 +22,7 @@ class SymbolDBInterface(ABC):
     @abstractmethod
     def get_by_symbol(self, symbol: str) -> dict:
         pass
+
+    @abstractmethod
+    def delete_symbol(self, symbol: str) -> bool:
+        pass
