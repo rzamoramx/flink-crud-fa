@@ -1,7 +1,8 @@
 
 import deta
-
+import uuid
 from symbols.domain.ports.SymbolDBInterface import SymbolDBInterface
+from symbols.domain.model.Symbol import DomainSymbolModel
 from deta import Deta
 
 
@@ -22,8 +23,10 @@ class SymbolDetaDB(SymbolDBInterface):
     def get(self, uid: str) -> dict:
         return self.db.get(uid)
 
-    def insert(self, symbol: dict, uid: str) -> dict:
-        return self.db.put(symbol, uid)
+    def insert(self, symbol: DomainSymbolModel, uid: str) -> dict:
+        if uid == "" or uid is None:
+            uid = str(uuid.uuid4())
+        return self.db.put(symbol.__dict__, uid)
 
     def update(self, symbol: dict, uid: str):
         self.db.update(symbol, uid)
