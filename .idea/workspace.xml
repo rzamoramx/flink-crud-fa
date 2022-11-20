@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a7f4008-459e-4130-b634-ae35d862a6ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symbols/tests/test_SymbolDB.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symbols/tests/test_SymbolsApp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symbols/adapters/postgresql/SymbolDB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symbols/adapters/postgresql/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symbols/tests/dev.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symbols/tests/test_SymbolDB_postgres.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/symbols/domain/SymbolsApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/symbols/domain/SymbolsApp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-crud-fa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-crud-fa.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symbols/adapters/api/rest/v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/symbols/adapters/api/rest/v1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symbols/config/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/symbols/config/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symbols/domain/model/Symbol.py" beforeDir="false" afterPath="$PROJECT_DIR$/symbols/domain/model/Symbol.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,14 +44,25 @@
     "ACTIVE_CLOUD_PROJECT_ID": "cargamos-dev-1",
     "ACTIVE_CLOUD_PROJECT_NAME": "Cargamos DEV",
     "ACTIVE_CLOUD_PROJECT_NUMBER": "72526559725",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.google.cloudcode.ide_session_index": "20221109_0009",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "com.google.cloudcode.ide_session_index": "20221119_0003",
+    "last_opened_file_path": "/home/ivan/python_projects/flink-crud-fa/symbols/tests",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_SymbolDB.TestSymbolDB.test_fetch_get">
-    <configuration name="Python tests for test_SymbolDB.TestSymbolDB.test_fetch_get" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/symbols/tests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/symbols/config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_SymbolDB_postgres.TestSymbolDBPostgres.test_fetch_all">
+    <configuration name="Python tests for test_SymbolDB_postgres.TestSymbolDBPostgres.test_delete_by_symbol" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="flink-crud-fa" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -58,11 +72,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_SymbolDB.TestSymbolDB.test_fetch_get&quot;" />
+      <option name="_new_target" value="&quot;test_SymbolDB_postgres.TestSymbolDBPostgres.test_delete_by_symbol&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_SymbolsApp.TestSymbolsApp" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_SymbolDB_postgres.TestSymbolDBPostgres.test_fetch_all" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="flink-crud-fa" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,11 +86,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_SymbolsApp.TestSymbolsApp&quot;" />
+      <option name="_new_target" value="&quot;test_SymbolDB_postgres.TestSymbolDBPostgres.test_fetch_all&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_SymbolsApp.TestSymbolsApp.test_retrieve" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_SymbolDB_postgres.TestSymbolDBPostgres.test_get_by_symbol" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="flink-crud-fa" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,11 +100,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_SymbolsApp.TestSymbolsApp.test_retrieve&quot;" />
+      <option name="_new_target" value="&quot;test_SymbolDB_postgres.TestSymbolDBPostgres.test_get_by_symbol&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_SymbolsApp.TestSymbolsApp.test_retrieve_none_when_not_exists" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_SymbolDB_postgres.TestSymbolDBPostgres.test_get_by_symbol_not_exists" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="flink-crud-fa" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,16 +114,31 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_SymbolsApp.TestSymbolsApp.test_retrieve_none_when_not_exists&quot;" />
+      <option name="_new_target" value="&quot;test_SymbolDB_postgres.TestSymbolDBPostgres.test_get_by_symbol_not_exists&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_SymbolDB_postgres.TestSymbolDBPostgres.test_get_by_uid" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="flink-crud-fa" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/symbols/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_SymbolDB_postgres.TestSymbolDBPostgres.test_get_by_uid&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_SymbolDB.TestSymbolDB.test_fetch_get" />
-        <item itemvalue="Python tests.Python tests for test_SymbolsApp.TestSymbolsApp" />
-        <item itemvalue="Python tests.Python tests for test_SymbolsApp.TestSymbolsApp.test_retrieve_none_when_not_exists" />
-        <item itemvalue="Python tests.Python tests for test_SymbolsApp.TestSymbolsApp.test_retrieve" />
+        <item itemvalue="Python tests.Python tests for test_SymbolDB_postgres.TestSymbolDBPostgres.test_fetch_all" />
+        <item itemvalue="Python tests.Python tests for test_SymbolDB_postgres.TestSymbolDBPostgres.test_delete_by_symbol" />
+        <item itemvalue="Python tests.Python tests for test_SymbolDB_postgres.TestSymbolDBPostgres.test_get_by_symbol_not_exists" />
+        <item itemvalue="Python tests.Python tests for test_SymbolDB_postgres.TestSymbolDBPostgres.test_get_by_uid" />
+        <item itemvalue="Python tests.Python tests for test_SymbolDB_postgres.TestSymbolDBPostgres.test_get_by_symbol" />
       </list>
     </recent_temporary>
   </component>

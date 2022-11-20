@@ -3,7 +3,8 @@ from fastapi import Depends, HTTPException
 from fastapi_utils.cbv import cbv
 from fastapi_utils.inferring_router import InferringRouter
 from symbols.domain.SymbolsApp import SymbolsApp
-from symbols.adapters.detadb.SymbolDB import SymbolDetaDB as DetaDB
+#from symbols.adapters.detadb.SymbolDB import SymbolDetaDB as DB
+from symbols.adapters.postgresql.SymbolDB import SymbolPostgres as DB
 from symbols.adapters.api.rest.SymbolModel import Symbol
 
 router = InferringRouter()
@@ -12,7 +13,7 @@ router = InferringRouter()
 # wire up
 def inject_symbols_app_dep():
     # Here you choose what implementations you will need and inject to app
-    return SymbolsApp(DetaDB())
+    return SymbolsApp(DB())
 
 
 @cbv(router)

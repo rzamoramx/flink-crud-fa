@@ -1,5 +1,5 @@
 
-class DomainSymbolModel:
+class DomainSymbolModel(object):
     company_name: str
     company_description: str
     symbol: str
@@ -10,3 +10,6 @@ class DomainSymbolModel:
         self.company_description = company_desc
         self.symbol = symbol
         self.market_values = market_values
+
+    def items(self):
+        return self.__dict__.items()
