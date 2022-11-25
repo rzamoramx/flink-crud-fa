@@ -14,7 +14,6 @@ class TestSymbolDBPostgres(unittest.TestCase):
         self.symbol_postgres.insert(instance, uid)
 
         expected = 1
-
         actual = self.symbol_postgres.delete_symbol("NVDA")
 
         self.assertEqual(expected, actual, 'affected rows must be > 0')

@@ -1,4 +1,5 @@
 
+from typing import List
 from fastapi import Depends, HTTPException
 from fastapi_utils.cbv import cbv
 from fastapi_utils.inferring_router import InferringRouter
@@ -61,7 +62,7 @@ class V1:
         except Exception as e:
             raise HTTPException(status_code=500, detail=str(e))
 
-    @router.get("/symbol/{symbol_id}")
+    @router.get("/symbol/{symbol_id}", response_model=Symbol)
     def get_symbol(self, symbol_id):
         self.checks()
 
@@ -71,7 +72,7 @@ class V1:
         else:
             raise HTTPException(status_code=404, detail="symbol not found")
 
-    @router.get("/symbol", status_code=200)
+    @router.get("/symbol", status_code=200, response_model=List[Symbol])
     def get_symbols(self):
         """
         Get list of symbols
